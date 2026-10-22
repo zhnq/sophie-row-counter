@@ -55,10 +55,10 @@ npm run build:html   # 导出独立 HTML
 | `scripts/` | 本地预览、ZIP 和独立 HTML 构建脚本 |
 | `assets/` | 图标与设计源素材 |
 | `docs/` | 设计记录、验收说明与截图，见[文档索引](docs/README.md) |
-| `design-qa.md` | 完工反馈的设计验收记录 |
+| `docs/completion-design-qa.md` | 完工反馈的设计验收记录 |
 | `CHANGELOG.md` | 近期版本变化 |
 
-本地 `previews/`、`preview/`、`miniprogram/`、`archive/` 与早期单文件入口属于实验或历史备份，不是当前发布入口，已排除上传。
+本地 `archive/` 集中保留编织工具的早期原生小程序、旧浏览器预览和早期单文件入口，不作为当前发布入口，也不纳入源码提交。`release/` 只保留当前版本安装包、校验文件及图标；试验预览和旧版本安装包已从工作目录清理。
 
 ## 验证与发布
 

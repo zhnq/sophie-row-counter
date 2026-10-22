@@ -5,9 +5,9 @@ final result: passed
 日期：2026-10-06。版本：0.10.13。
 
 ## 参考与证据
-- 选定效果稿：docs/acceptance-completion/design-reference.png（1536 × 1024，双屏样式板）。
-- 首页实测：docs/acceptance-completion/home.jpg（390 × 844）。
-- 完工实测：docs/acceptance-completion/celebration.jpg（390 × 844，礼花刚发射时截图）。
+- 选定效果稿：acceptance-completion/design-reference.png（1536 × 1024，双屏样式板）。
+- 首页实测：acceptance-completion/home.jpg（390 × 844）。
+- 完工实测：acceptance-completion/celebration.jpg（390 × 844，礼花刚发射时截图）。
 - 本地预览：http://127.0.0.1:4190/。390 × 844 CSS 手机视口，输出与 CSS 尺寸一致；另检查 320 × 740 窄屏。视口覆盖已恢复。
 - 同一次视觉比较输入中打开了样式板和两张实现截图。按各屏内容宽度比较组件；样式板没有宣称 CSS 视口或设备密度，不按整板像素一比一比较。
 
@@ -33,4 +33,4 @@ final result: passed
 没有剩余 P0/P1/P2 问题。未在小红书手机真机上验证本次动画；预览验证环境为桌面内置浏览器。
 
 ## 礼花加强版（预览调整，未覆盖 0.10.13 发布包）
-用户反馈礼花偏弱后，将数量 28 → 76、尺寸 4–7 → 7–13 px、时长 1.5 → 2.4 秒，按屏幕高度计算发射速度，扩大到屏幕中部，加入更鲜明的莓红、金色和雾蓝纸片。真实浏览器动作再次验证，截图 docs/acceptance-completion/celebration-stronger.jpg（390 × 844）可见纸片分散到当前行附近。动画仍不接收点击，保留减少动态效果与结束清理。276 项测试通过。
+用户反馈礼花偏弱后，将数量 28 → 76、尺寸 4–7 → 7–13 px、时长 1.5 → 2.4 秒，按屏幕高度计算发射速度，扩大到屏幕中部，加入更鲜明的莓红、金色和雾蓝纸片。真实浏览器动作再次验证，截图 acceptance-completion/celebration-stronger.jpg（390 × 844）可见纸片分散到当前行附近。动画仍不接收点击，保留减少动态效果与结束清理。276 项测试通过。

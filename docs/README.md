@@ -6,7 +6,7 @@
 
 - [v0.10.16：逐行完成时间](acceptance-v0.10.16.md)
 - [v0.10.15：最近一次记录时间](acceptance-v0.10.15.md)
-- [完工礼花与徽章](../design-qa.md)
+- [完工礼花与徽章](completion-design-qa.md)
 
 ## 设计与功能背景
 
