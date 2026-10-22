@@ -1,0 +1,11 @@
+{
+  "name": "sophie-row-counter",
+  "version": "0.10.16",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "preview": "node scripts/preview.js",
+    "build": "node scripts/build.js",
+    "build:html": "node scripts/build-standalone.js"
+  }
+}

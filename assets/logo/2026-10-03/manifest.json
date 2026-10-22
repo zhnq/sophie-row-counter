@@ -1,0 +1,100 @@
+{
+  "purpose": "苏菲·一行一记 小红书小工具图标候选",
+  "date": "2026-10-03",
+  "generation_tool": "built-in image_gen",
+  "platform_evidence": {
+    "page": "https://creator.xiaohongshu.com/new/red-app",
+    "public_script": "https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/async/3952.49585bbc.js",
+    "accepted_formats": [
+      "png",
+      "jpg",
+      "jpeg"
+    ],
+    "maximum_input_bytes": 5242880,
+    "recommended_ratio": "1:1",
+    "platform_crop_output": {
+      "width": 512,
+      "height": 512,
+      "format": "jpeg",
+      "quality": 0.95
+    }
+  },
+  "production_choices": {
+    "background": "opaque",
+    "text": "none",
+    "export_sizes": [
+      1024,
+      512
+    ],
+    "selection": "3 个独立候选，尚未替换应用内图标；作为提交资料单独上传"
+  },
+  "variants": [
+    {
+      "number": 1,
+      "name": "莓红围巾",
+      "basename": "01-berry-scarf",
+      "prompt": "Use case: logo-brand. Asset type: single square app icon for an independent Chinese knitting row counter for a small narrow triangular neck scarf, called 苏菲·一行一记. Create ONE finished icon, not a comparison sheet.\nSubject: a cozy berry-red knitted narrow neck scarf tied in one simple loose knot, two short tapering triangular ends, arranged as a compact elegant emblem. No human or mannequin. Strong recognizable scarf silhouette, soft rounded sculptural yarn texture with only a few clearly readable garter stitch ribs. A small loop of yarn flowing from one end subtly suggests progress.\nStyle: tactile soft 3D illustration, refined contemporary craft app branding, calm warmth, controlled soft shadows, no glossy plastic.\nColors: muted berry red #B0566B scarf on uniform opaque warm cream #F7F1E8 full-bleed background.\nComposition: front view, square 1:1 ideally 1024x1024, one centered large symbol occupying 68-72% of canvas. Keep 14% clear safe margin on all sides; readable at 48px. Background extends to all four corners, do not draw rounded app tile corners, border, frame, or outer white margins.\nConstraints: fully opaque, no lettering, numerals, watermark, badges, QR codes, promotional claims, platform logos, PetiteKnit branding, extra decorative objects. Original icon only."
+    },
+    {
+      "number": 2,
+      "name": "一行一勾",
+      "basename": "02-knit-check",
+      "prompt": "Use case: logo-brand. Asset type: single square app icon for a knitting row counter for a narrow triangular scarf. Create ONE finished icon, not a grid or brand presentation.\nSubject: a minimal original cream-colored knitted triangle with a shallow long scarf silhouette, simple tapered points and a gentle central peak. Three broad parallel curved knit-row lines inside the triangle, one final row flowing into a bold elegant checkmark, joining the ideas of knitting a row and marking it complete. The triangular scarf and checkmark must form one integrated emblem, not a floating notification badge.\nStyle: sophisticated flat editorial symbol, crisp rounded line ends, simple broad shapes, exceptional small-size legibility; warm and friendly rather than technical. No tiny stitch detail, no 3D.\nColors: solid deep muted raspberry #9D455D full-bleed background, warm ivory #FFF3DC symbol; optional one dusty blush accent only if useful.\nComposition: 1:1 square ideally 1024x1024, centered bold emblem occupying around 68% of the canvas, 15% clear safe margin. Single coherent icon with balanced negative space. Full square background to the corners, no pre-rounded corners, no tile mockup, no frame.\nConstraints: opaque, no text, letters, numbers, watermark, UI interface, QR code, advertising, copied symbols, platform or third-party logos. Original design only."
+    },
+    {
+      "number": 3,
+      "name": "毛线计数",
+      "basename": "03-yarn-check",
+      "prompt": "Use case: logo-brand. Asset type: single square app icon for a cozy knitting progress and row-counting tool for small triangular scarves. ONE final icon, no contact sheet.\nSubject: a compact warm ivory ball of yarn made from three to five broad woven loops. Its one loose yarn tail curls downward then up into an unmistakable softly rounded checkmark, naturally integrated into the yarn ball. A short berry-red triangular knitted scarf tail peeks neatly from the ball, conveying the specific scarf craft without clutter. No knitting needles, no hands.\nStyle: charming Scandinavian-inspired paper-cut illustration with very subtle layered paper depth and restrained tactile grain; professional, quiet, distinctive, simple enough to stay clear at 48px.\nColors: muted mist blue #789CAA full-bleed uniform background, warm ivory yarn and small muted berry-red scarf accent.\nComposition: square 1:1 ideally 1024x1024, front-facing centered emblem occupying 70% of canvas, all meaningful shapes within the central 74%, clear 13-15% safe margin, simple silhouette. Full-bleed opaque square background, no rounded-square tile drawing, no border or surrounding white margin.\nConstraints: no words, numerals, watermark, badges, QR codes, realistic photograph, promotional wording, platform logo, third-party brand likeness. Original image only."
+    }
+  ],
+  "exports": "每版提供 1024 PNG、512 PNG、512 JPG；原始生成文件保留在 image_gen 默认输出目录。",
+  "released_code_package": "release/sophie-row-counter-v0.10.4.zip 保持原包；图标合集与代码 ZIP 分开。",
+  "validated_exports": [
+    {
+      "file": "01-berry-scarf-1024.png",
+      "bytes": 1312233,
+      "sha256": "b3971c124bca6300dd1cf6778f008a7b0c2116be02b6fb058bbcd0b6d94d834a"
+    },
+    {
+      "file": "01-berry-scarf-512.png",
+      "bytes": 358033,
+      "sha256": "94691f7a3d282dbc52c6cd8ca5307e8e0c83eb9382c0ab5539dcdb1de72c7e77"
+    },
+    {
+      "file": "01-berry-scarf-512.jpg",
+      "bytes": 68220,
+      "sha256": "b4e819ce927158369963f1b1ef6b2269e166a1dd79da12683aa07f18c5df51a4"
+    },
+    {
+      "file": "02-knit-check-1024.png",
+      "bytes": 876618,
+      "sha256": "2884d23b5536a4cbd55d7e05e74846bf79964bda3f90a1bd4b0697568f81813e"
+    },
+    {
+      "file": "02-knit-check-512.png",
+      "bytes": 243341,
+      "sha256": "8793c831c13f9791cf3bcc679dfd89613ad0ce16594188535c0367f9886bde06"
+    },
+    {
+      "file": "02-knit-check-512.jpg",
+      "bytes": 38689,
+      "sha256": "77f69a53e65261279aafa81c0bea744a60dbfbbcc2ebcf4682614c5833d0d3ba"
+    },
+    {
+      "file": "03-yarn-check-1024.png",
+      "bytes": 1266622,
+      "sha256": "e4a1b845cfbb90e2590843a48579a6e86beb7cc5c3a96095108c6f55224fd9b7"
+    },
+    {
+      "file": "03-yarn-check-512.png",
+      "bytes": 321273,
+      "sha256": "3f0c723939a0679d8f41d07a5ed72bb39f6dc5a909ea742d72976ba70455c0ff"
+    },
+    {
+      "file": "03-yarn-check-512.jpg",
+      "bytes": 57506,
+      "sha256": "9bbd4c87ec3bb72985b1eb4a94f5aead1d041c0635367ebcdbc9abc14fb81040"
+    }
+  ]
+}

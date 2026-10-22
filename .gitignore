@@ -1,0 +1,31 @@
+# OS and editors
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencies and runtime files
+node_modules/
+coverage/
+*.log
+__pycache__/
+*.py[cod]
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated outputs (download distributables from GitHub Releases)
+/build/
+/release/
+
+# Local experiments and retired implementations
+/previews/
+/preview/
+/miniprogram/
+/archive/
+/苏菲小围巾.html

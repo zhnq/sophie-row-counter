@@ -1,0 +1,46 @@
+{
+  "selected_variant": 1,
+  "name": "莓红围巾",
+  "user_confirmation": "第一个不错 就第一个吧",
+  "upload_file": "release/sophie-icon.png",
+  "alternate_upload_file": "release/sophie-icon.jpg",
+  "upload_dimensions": "512x512",
+  "master_file": "assets/logo/sophie-icon-master.png",
+  "master_dimensions": "1024x1024",
+  "generation_tool": "built-in image_gen",
+  "prompt": "Use case: logo-brand. Asset type: single square app icon for an independent Chinese knitting row counter for a small narrow triangular neck scarf, called 苏菲·一行一记. Create ONE finished icon, not a comparison sheet.\nSubject: a cozy berry-red knitted narrow neck scarf tied in one simple loose knot, two short tapering triangular ends, arranged as a compact elegant emblem. No human or mannequin. Strong recognizable scarf silhouette, soft rounded sculptural yarn texture with only a few clearly readable garter stitch ribs. A small loop of yarn flowing from one end subtly suggests progress.\nStyle: tactile soft 3D illustration, refined contemporary craft app branding, calm warmth, controlled soft shadows, no glossy plastic.\nColors: muted berry red #B0566B scarf on uniform opaque warm cream #F7F1E8 full-bleed background.\nComposition: front view, square 1:1 ideally 1024x1024, one centered large symbol occupying 68-72% of canvas. Keep 14% clear safe margin on all sides; readable at 48px. Background extends to all four corners, do not draw rounded app tile corners, border, frame, or outer white margins.\nConstraints: fully opaque, no lettering, numerals, watermark, badges, QR codes, promotional claims, platform logos, PetiteKnit branding, extra decorative objects. Original icon only.",
+  "platform_evidence": {
+    "page": "https://creator.xiaohongshu.com/new/red-app",
+    "public_script": "https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/async/3952.49585bbc.js",
+    "accepted_formats": [
+      "png",
+      "jpg",
+      "jpeg"
+    ],
+    "maximum_input_bytes": 5242880,
+    "recommended_ratio": "1:1",
+    "platform_crop_output": {
+      "width": 512,
+      "height": 512,
+      "format": "jpeg",
+      "quality": 0.95
+    }
+  },
+  "exports": [
+    {
+      "file": "release/sophie-icon.png",
+      "bytes": 358033,
+      "sha256": "94691f7a3d282dbc52c6cd8ca5307e8e0c83eb9382c0ab5539dcdb1de72c7e77"
+    },
+    {
+      "file": "release/sophie-icon.jpg",
+      "bytes": 68220,
+      "sha256": "b4e819ce927158369963f1b1ef6b2269e166a1dd79da12683aa07f18c5df51a4"
+    },
+    {
+      "file": "assets/logo/sophie-icon-master.png",
+      "bytes": 1312233,
+      "sha256": "b3971c124bca6300dd1cf6778f008a7b0c2116be02b6fb058bbcd0b6d94d834a"
+    }
+  ]
+}
